@@ -1,0 +1,11 @@
+:root {
+    --color-main-dark: #15607B;
+    --color-main-light: #63B0CD;
+    --color-second-dark: #A01B24;
+    --color-second-light: #DF2935;
+    --color-bg-light: #E6E6E6;
+}
+
+main {
+    background-color: var(--color-bg-light);
+}
