@@ -1,0 +1,15 @@
+main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+    section, aside {
+        grid-column: 1 / -1;
+    }
+}
