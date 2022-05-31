@@ -6,14 +6,18 @@
     --color-bg-light: #E6E6E6;
 }
 * {
-    margin:0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 main {
     background-color: var(--color-bg-light);
     max-width: 1600px;
     margin:auto;
     padding-top: 100px;
 }
+
 header{
     font-family: 'Roboto', sans-serif;
     height:70px;
@@ -155,10 +159,10 @@ main h1 {
     text-align: center;
     color: var(--color-second-dark);
 }
-label {
+main label {
     font-size: 1.4em;
 }
-input {
+main input {
     margin-top: 1%;
     margin-bottom: 3%;
     padding-bottom: 1%;

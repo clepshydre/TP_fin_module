@@ -11,12 +11,12 @@ img{
     align-self: center;
 }
 
-h1, h2, h3{
+main h1, main h2, h3{
     color: var(--color-second-light);
     margin: 2vh;
 }
 
-h1{
+main h1{
     align-self: center;
 }
 
