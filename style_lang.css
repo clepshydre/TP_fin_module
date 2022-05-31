@@ -23,6 +23,11 @@ span::before {
     content: ' ';
 }
 
+.langLogo img {
+    max-height: 120px;
+    width: auto;
+}
+
 /* -------- STRUCTURE -------- */
 main {
     display: grid;
