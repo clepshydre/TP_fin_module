@@ -1,0 +1,43 @@
+main {
+    background-color: var(--color-bg-light);
+}
+
+main section {
+    width:30%;
+    margin-left: 35%; 
+    margin-top: 30px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main label {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+main input {
+    margin-top: 1%;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+    width : 92%;
+}
+
+input:not(.checkbox,.button) {
+    width: 92%;
+}
+
+.button {
+    padding: 1.2%;
+}
+
+.button:hover {
+    color: white;
+    background-color: var(--color-main-light);
+}

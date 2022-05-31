@@ -1,30 +1,25 @@
 main{
-    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    max-width: 1600px;
-    margin: auto;
-    padding-top: 70px;
 }
 
 img{
     align-self: center;
 }
 
-main h1, main h2, h3{
-    color: var(--color-second-light);
+h1, main h2, main h3{
     margin: 2vh;
 }
 
-main h1{
+h1{
     align-self: center;
 }
 
-p,li{
+main p, main li{
     color: var(--color-main-dark);
     margin: 15px;
 }
 
-ul{
+main ul{
     margin: 1.2vh;
 }
