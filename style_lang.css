@@ -1,15 +1,89 @@
+/* -------- COSMETIC -------- */
+.console {
+    font-family: 'Fira Code', Consolas, monospace;
+    color: var(--color-bg-light);
+    border-radius: 8px;
+    background-color: var(--color-main-dark);
+}
+
+section, aside {
+    background-color: var(--color-bg-light);
+    border-radius: 12px;
+}
+
+h1, h3 {
+    color: var(--color-second-dark);
+}
+
+img {
+    border-radius: 8px;
+}
+
+/* -------- STRUCTURE -------- */
 main {
     display: grid;
     grid-template-columns: 60% 40%;
+    gap: 1vw;
+}
+
+section, aside, .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section, aside {
+    gap: 4vh;
+    height: fit-content;
+}
+
+section {
+    padding: 4vh 3vw;
 }
 
 aside {
-    display: flex;
-    flex-direction: column;
+    padding: 4vh 1vw 2VH;
+}
+
+.sample {
+    align-self: stretch;
+}
+
+.console {
+    padding: 1vh 1vw;
+    width: 100%;
+}
+
+.gallery {
+    width: 100%;
+    gap: 2vh;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* -------- RESPONSIVE -------- */
+@media screen and (max-width: 1300px) {
+    section, aside {
+        grid-column: 1 / -1;
+    }
+
+    .gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1vw;
+    }
+
+    .gallery img {
+        max-width: 46vw;
+    }
 }
 
 @media screen and (max-width: 1024px) {
-    section, aside {
-        grid-column: 1 / -1;
+    .gallery img {
+        max-width: 720px;
     }
 }

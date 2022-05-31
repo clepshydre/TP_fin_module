@@ -13,5 +13,7 @@
 }
 
 main {
-    background-color: var(--color-bg-light);
+    max-width: 1600px;
+    margin: 70px auto;
+    padding: 6vh 2vw 2vh;
 }
