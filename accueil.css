@@ -1,16 +1,19 @@
 main{
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     max-width: 1600px;
     margin: auto;
+    padding-top: 70px;
 }
 
 img{
     align-self: center;
 }
 
-h1, h2{
+h1, h2, h3{
     color: var(--color-second-light);
+    margin: 2vh;
 }
 
 h1{
@@ -20,4 +23,8 @@ h1{
 p,li{
     color: var(--color-main-dark);
     margin: 15px;
+}
+
+ul{
+    margin: 1.2vh;
 }
