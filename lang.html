@@ -6,45 +6,78 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="./style_shared.css">
+        <link rel="stylesheet" href="./header-footer.css">
         <link rel="stylesheet" href="./style_lang.css">
         <title>Devenez Développeur - Le Langage</title>
     </head>
 
     <body>
         <header>
-
-        </header>
+            <div class="headerContainer">
+              <img src="./images/adrar-logo.jpeg" alt="logo_adrar" />
+              <div class="headerTitle">
+                <h1>ADRAR</h1>
+                <h2>Formation</h2>
+              </div>
+            </div>
+            <nav class="navDesktop">
+              <ul>
+                <li><a href="">Accueil</a></li>
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">JAVASCRIPT</a></li>
+                <li><a href="">CONTACT</a></li>
+              </ul>
+            </nav>
+      
+            <nav class="navMobile">
+              <input type="checkbox" id="menuToggle" class="menuInput" />
+              <label for="menuToggle" class="menuToggle">
+                <div class="toggle">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </label>
+              <ul>
+                <li><a href="">Accueil</a></li>
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">JAVASCRIPT</a></li>
+                <li><a href="">CONTACT</a></li>
+              </ul>
+            </nav>
+          </header>
 
         <main>
             <section>
-                <h1>Langage</h1>
+                <h1>HTML</h1>
 
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, distinctio corrupti? Nostrum, commodi rem dolorem reiciendis quod eius consequuntur cupiditate, quidem repellat quo exercitationem praesentium. Explicabo cumque omnis similique nostrum!</span><span>Aliquam saepe voluptatibus culpa iure! Dolor soluta odio nesciunt quam, cum amet beatae, laudantium aliquid saepe nihil libero, reiciendis corrupti doloremque officiis maxime quo consequatur eveniet quae in at ex.
+                    HTML signifie « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure. D'autres technologies sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).
                 </p>
 
                 <div class="sample">
-                    <h3>Exemple</h3>
+                    <h3>Le code de base</h3>
                     <div class="console">
                         <code>
-                            &lt;!DOCTYPE html&gt;
-                            &lt;html lang=&quot;fr&quot;&gt;
-                                &lt;head&gt;
-                                    &lt;meta charset=&quot;UTF-8&quot;&gt;
-                                    &lt;link rel=&quot;stylesheet&quot; href=&quot;./style_shared.css&quot;&gt;
-                                    &lt;title&gt;Document&lt;/title&gt;
-                                &lt;/head&gt;
+                            &lt;!DOCTYPE html&gt;<br>
+                            &lt;html lang=&quot;fr&quot;&gt;<br>
+                                <span>&lt;head&gt;</span><br>
+                                    <span><span>&lt;meta charset=&quot;UTF-8&quot;&gt;</span></span><br>
+                                    <span><span>&lt;link rel=&quot;stylesheet&quot; href=&quot;./style_shared.css&quot;&gt;</span></span><br>
+                                    <span><span>&lt;title&gt;Document&lt;/title&gt;</span></span><br>
+                                <span>&lt;/head&gt;</span><br>
 
                                 &lt;body&gt;
-                                &lt;/body&gt;
-                            &lt;/html&gt;
+                                &lt;/body&gt;<br>
                             &lt;/html&gt;
                         </code>
                     </div>
                 </div>
                 
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo error amet, id corporis illo pariatur doloribus non ratione velit alias laboriosam magni exercitationem in corrupti, perspiciatis aliquid fugit, totam accusantium.</span><span>Itaque, amet. Deleniti libero quo qui rerum nemo, hic unde voluptatibus sit distinctio voluptates corrupti nihil cupiditate obcaecati aut adipisci sunt eaque recusandae dolorum debitis quisquam repellendus non excepturi soluta.
+                    L'« hypertexte » désigne les liens qui relient les pages web entre elles, que ce soit au sein d'un même site web ou entre différents sites web. Les liens sont un aspect fondamental du Web. Ce sont eux qui forment cette « toile » (ce mot est traduit par web en anglais). En téléchargeant du contenu sur l'Internet et en le reliant à des pages créées par d'autres personnes, vous devenez un participant actif du World Wide Web.
                 </p>
 
                 <div class="sample">
@@ -161,7 +194,38 @@
         </main>
 
         <footer>
-            
-        </footer>
+            <section class="footerNetworks">
+              <h2>Suivez-nous!</h2>
+              <ul>
+                <li>
+                  <a href="https://twitter.com/Adrar_Numerique" target="_blank"
+                    ><img src="./images/icon-network/Twitter.svg" alt="logo-twitter"
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/school/adrarnumerique/?originalSubdomain=fr"
+                    target="_blank"
+                    ><img
+                      src="./images/icon-network/LinkedIn.svg"
+                      alt="logo-linkedin"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://vimeo.com/adrarnumerique" target="_blank"
+                    ><img src="./images/icon-network/Vimeo.svg" alt="logo-vimeo"
+                  /></a>
+                </li>
+              </ul>
+            </section>
+            <section class="footerPolicy">
+              <ul>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">Vie privée</a></li>
+                <li><a href="#">Conditions générales</a></li>
+                <li><a href="#">Engagements</a></li>
+              </ul>
+            </section>
+          </footer>
     </body>
 </html>

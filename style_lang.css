@@ -6,17 +6,21 @@
     background-color: var(--color-main-dark);
 }
 
-section, aside {
+main section, aside {
     background-color: var(--color-bg-light);
-    border-radius: 12px;
+    border-radius: 0 0 12px 12px;
 }
 
-h1, h3 {
+main h1, h3 {
     color: var(--color-second-dark);
 }
 
 img {
     border-radius: 8px;
+}
+
+span::before {
+    content: ' ';
 }
 
 /* -------- STRUCTURE -------- */
