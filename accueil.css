@@ -1,0 +1,23 @@
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    margin: auto;
+}
+
+img{
+    align-self: center;
+}
+
+h1, h2{
+    color: var(--color-second-light);
+}
+
+h1{
+    align-self: center;
+}
+
+p,li{
+    color: var(--color-main-dark);
+    margin: 15px;
+}
